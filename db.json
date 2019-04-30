@@ -1,0 +1,102 @@
+{
+  "dogs": [
+    {
+      "id": 1,
+      "name": "Rover",
+      "breed": "Cocker Spaniel",
+      "img_url": "https://media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif",
+      "likes": 14
+    },
+    {
+      "id": 2,
+      "name": "Princess",
+      "breed": "Pitbull",
+      "img_url": "https://media.giphy.com/media/RQSuZfuylVNAY/giphy.gif",
+      "likes": 16
+    },
+    {
+      "id": 3,
+      "name": "Doge",
+      "breed": "Shiba Inu",
+      "img_url": "https://media.giphy.com/media/121Ve4tjzKoQda/giphy.gif",
+      "likes": 3
+    },
+    {
+      "id": 4,
+      "name": "Wilhelm",
+      "breed": "Dachsund",
+      "img_url": "https://media.giphy.com/media/Ly34s6avj4CA/giphy.gif",
+      "likes": 4
+    },
+    {
+      "id": 5,
+      "name": "Regina",
+      "breed": "Pitbull",
+      "img_url": "https://media.giphy.com/media/3o85xsGXVuYh8lM3EQ/giphy.gif",
+      "likes": 11
+    },
+    {
+      "id": 6,
+      "name": "Crippler",
+      "breed": "Pug",
+      "img_url": "https://media.giphy.com/media/12pJ8OxSWwO86Y/giphy.gif",
+      "likes": 5
+    },
+    {
+      "name": "Fluffy",
+      "breed": "Chihuahua",
+      "img_url": "https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif",
+      "likes": 0,
+      "id": 7
+    },
+    {
+      "name": "Crippler",
+      "breed": "mixed",
+      "img_url": "https://media.giphy.com/media/sMaW02wUllmFi/giphy.gif",
+      "likes": 5,
+      "id": 8
+    },
+    {
+      "name": "Fuzzy",
+      "breed": "Greyhound",
+      "img_url": "https://media.giphy.com/media/qITmCEKXJBqIE/giphy.gif",
+      "likes": 0,
+      "id": 12
+    },
+    {
+      "name": "Maris",
+      "breed": "mixed",
+      "img_url": "https://media.giphy.com/media/qITmCEKXJBqIE/giphy.gif",
+      "likes": 0,
+      "id": 13
+    },
+    {
+      "name": "Grover",
+      "breed": "rottweiler",
+      "img_url": "https://media.giphy.com/media/SB5fjrUhAeLte/giphy.gif",
+      "likes": 0,
+      "id": 14
+    },
+    {
+      "name": "Billy",
+      "breed": "King James Spaniel",
+      "img_url": "https://media.giphy.com/media/NkJEXWDr7KsG4/giphy.gif",
+      "likes": 6,
+      "id": 15
+    },
+    {
+      "name": "Tommy",
+      "breed": "mixed",
+      "img_url": "https://media.giphy.com/media/BdhtvnPILhdYs/giphy.gif",
+      "likes": 0,
+      "id": 16
+    },
+    {
+      "name": "Lady",
+      "breed": "Corgi",
+      "img_url": "https://media.giphy.com/media/GUx4WVQJLESaI/giphy.gif",
+      "likes": 0,
+      "id": 17
+    }
+  ]
+}
