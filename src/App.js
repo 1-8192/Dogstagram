@@ -60,7 +60,7 @@ class App extends React.Component {
     })
   }
 
-  handleClick = (likedDog) => {
+  handleLikeClick = (likedDog) => {
     let newArray = this.state.dogs.map(dog => {
       if (dog.id === likedDog.id) {
         return {...dog, likes: dog.likes+1}
@@ -114,7 +114,7 @@ class App extends React.Component {
       <NameSort handleNameSort={this.handleNameSort}/>
       <LikeSort handleLikeSort={this.handleLikeSort} />
       <NewDogForm handleNewSubmit={this.handleNewSubmit}/>
-      <DogContainer handleClick={this.handleClick} dogs={this.state.displayDogs}/>
+      <DogContainer handleLikeClick={this.handleClick} dogs={this.state.displayDogs}/>
     </div>
   );
 }

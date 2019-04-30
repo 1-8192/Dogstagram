@@ -9,7 +9,7 @@ const DogCard = (props) => {
             <div className="card-image small">
             <img alt={props.dog.name} src={props.dog.img_url} />
             <span className="card-title">{props.dog.name}</span>
-            <a onClick={()=> {props.handleClick(props.dog)}} className="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">好</i></a>
+            <a onClick={()=> {props.handleLikeClick(props.dog)}} className="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">好</i></a>
             </div>
             <h4>{props.dog.breed}</h4>
             <div className="card-action">
