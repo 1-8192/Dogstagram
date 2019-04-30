@@ -19,7 +19,7 @@
       "name": "Doge",
       "breed": "Shiba Inu",
       "img_url": "https://media.giphy.com/media/121Ve4tjzKoQda/giphy.gif",
-      "likes": 3
+      "likes": 10
     },
     {
       "id": 4,
@@ -97,6 +97,13 @@
       "img_url": "https://media.giphy.com/media/GUx4WVQJLESaI/giphy.gif",
       "likes": 0,
       "id": 17
+    },
+    {
+      "name": "Sweetie",
+      "breed": "Pitbull",
+      "img_url": "https://media.giphy.com/media/kiBcwEXegBTACmVOnE/giphy.gif",
+      "likes": 0,
+      "id": 18
     }
   ]
 }

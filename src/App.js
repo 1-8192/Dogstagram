@@ -114,7 +114,7 @@ class App extends React.Component {
       <NameSort handleNameSort={this.handleNameSort}/>
       <LikeSort handleLikeSort={this.handleLikeSort} />
       <NewDogForm handleNewSubmit={this.handleNewSubmit}/>
-      <DogContainer handleLikeClick={this.handleClick} dogs={this.state.displayDogs}/>
+      <DogContainer handleLikeClick={this.handleLikeClick} dogs={this.state.displayDogs}/>
     </div>
   );
 }
