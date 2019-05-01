@@ -11,4 +11,4 @@ Dogstagram is a silly, fun little app built to exercise some React muscles. It s
 - Fire up the JSON server with `json-server --watch db.json` after installing with `npm install -g json-server`, if necessary.
 - Start the app e.g- `npm start` or `yarn start`
 
-
+Created by Alessandro Allegranzi
