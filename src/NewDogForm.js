@@ -36,11 +36,11 @@ class NewDogForm extends React.Component {
       return null
     } else {
       return (
-        <form onSubmit={this.handleNewSubmitLocally}>
+        <form className="card" onSubmit={this.handleNewSubmitLocally}>
           <input onChange={this.handleFormChange} type="text" name="name" value={this.state.name} placeholder="Dawg Name"/>
           <input onChange={this.handleFormChange} type="text" name="breed" value={this.state.breed} placeholder="Breed"/>
-          <input onChange={this.handleFormChange} type="text" name="imgUrl" value={this.state.img_url} placeholder="gif url"/>
-          <input type="Submit" value="submit"/>
+          <input onChange={this.handleFormChange} type="text" name="imgUrl" value={this.state.imgUrl} placeholder="gif url"/>
+          <input className="waves-effect waves-light btn" type="Submit" value="submit"/>
         </form>
       )
     }
@@ -49,7 +49,7 @@ class NewDogForm extends React.Component {
   render() {
     return (
       <div>
-        <button onClick={this.revealClick}>Add a dawg!</button>
+        <button className="waves-effect waves-light btn" onClick={this.revealClick}>Add a dawg!</button>
         {this.form()}
       </div>
     )

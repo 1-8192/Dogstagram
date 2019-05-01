@@ -2,7 +2,7 @@ import React from 'react'
 
 const LikeSort = (props) => {
   return (
-      <button onClick={props.handleLikeSort}>Sort by popularity!</button>
+      <button className="waves-effect waves-light btn" onClick={props.handleLikeSort}>Sort by popularity!</button>
   )
 }
 

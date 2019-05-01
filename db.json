@@ -5,35 +5,35 @@
       "name": "Rover",
       "breed": "Cocker Spaniel",
       "img_url": "https://media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif",
-      "likes": 14
+      "likes": 16
     },
     {
       "id": 2,
       "name": "Princess",
       "breed": "Pitbull",
       "img_url": "https://media.giphy.com/media/RQSuZfuylVNAY/giphy.gif",
-      "likes": 16
+      "likes": 17
     },
     {
       "id": 3,
       "name": "Doge",
       "breed": "Shiba Inu",
       "img_url": "https://media.giphy.com/media/121Ve4tjzKoQda/giphy.gif",
-      "likes": 10
+      "likes": 12
     },
     {
       "id": 4,
       "name": "Wilhelm",
       "breed": "Dachsund",
       "img_url": "https://media.giphy.com/media/Ly34s6avj4CA/giphy.gif",
-      "likes": 4
+      "likes": 8
     },
     {
       "id": 5,
       "name": "Regina",
       "breed": "Pitbull",
       "img_url": "https://media.giphy.com/media/3o85xsGXVuYh8lM3EQ/giphy.gif",
-      "likes": 11
+      "likes": 13
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "name": "Fluffy",
       "breed": "Chihuahua",
       "img_url": "https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif",
-      "likes": 0,
+      "likes": 1,
       "id": 7
     },
     {
@@ -60,21 +60,21 @@
       "name": "Fuzzy",
       "breed": "Greyhound",
       "img_url": "https://media.giphy.com/media/qITmCEKXJBqIE/giphy.gif",
-      "likes": 0,
+      "likes": 2,
       "id": 12
     },
     {
       "name": "Maris",
       "breed": "mixed",
       "img_url": "https://media.giphy.com/media/qITmCEKXJBqIE/giphy.gif",
-      "likes": 0,
+      "likes": 1,
       "id": 13
     },
     {
       "name": "Grover",
       "breed": "rottweiler",
       "img_url": "https://media.giphy.com/media/SB5fjrUhAeLte/giphy.gif",
-      "likes": 0,
+      "likes": 1,
       "id": 14
     },
     {
@@ -88,22 +88,36 @@
       "name": "Tommy",
       "breed": "mixed",
       "img_url": "https://media.giphy.com/media/BdhtvnPILhdYs/giphy.gif",
-      "likes": 0,
+      "likes": 2,
       "id": 16
     },
     {
       "name": "Lady",
       "breed": "Corgi",
       "img_url": "https://media.giphy.com/media/GUx4WVQJLESaI/giphy.gif",
-      "likes": 0,
+      "likes": 2,
       "id": 17
     },
     {
       "name": "Sweetie",
       "breed": "Pitbull",
       "img_url": "https://media.giphy.com/media/kiBcwEXegBTACmVOnE/giphy.gif",
-      "likes": 0,
+      "likes": 2,
       "id": 18
+    },
+    {
+      "name": "Baby Bear",
+      "breed": "Doberman",
+      "img_url": "https://media.giphy.com/media/5EJHDSPpFhbG0/giphy.gif",
+      "likes": 2,
+      "id": 19
+    },
+    {
+      "name": "Daniel",
+      "breed": "ugly",
+      "img_url": "https://media.giphy.com/media/5EJHDSPpFhbG0/giphy.gif",
+      "likes": 1,
+      "id": 20
     }
   ]
 }

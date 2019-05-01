@@ -2,7 +2,7 @@ import React from 'react'
 
 const NameSort = (props) => {
   return (
-      <button onClick={props.handleNameSort}>Sort by dawg name!</button>
+      <button className="waves-effect waves-light btn" onClick={props.handleNameSort}>Sort by dawg name!</button>
   )
 }
 
