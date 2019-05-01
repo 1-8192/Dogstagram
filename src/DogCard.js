@@ -8,12 +8,15 @@ const DogCard = (props) => {
           <div className="card-content white-text">
             <div className="card-image small">
             <img alt={props.dog.name} src={props.dog.img_url} />
-            <span className="card-title">{props.dog.name}</span>
-            <a onClick={()=> {props.handleLikeClick(props.dog)}} className="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">好</i></a>
+            <span className="card-title fun-font">{props.dog.name}</span>
+            <a onClick={()=> {props.handleLikeClick(props.dog)}} className="btn-floating halfway-fab waves-effect waves-light red fun-font"><i class="material-icons">Like</i></a>
             </div>
-            <h4>{props.dog.breed}</h4>
+            <h4 className="fun-font">{props.dog.breed}</h4>
             <div className="card-action">
               <span> {props.dog.likes} likes</span>
+            </div>
+            <div className="card-action">
+              <button onClick={()=> {props.handleDelete(props.dog)}}className="waves-effect deep-orange lighten-5 btn green-text fun-font"> Take Yeller out back</button>
             </div>
           </div>
         </div>

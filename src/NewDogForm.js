@@ -56,7 +56,7 @@ class NewDogForm extends React.Component {
               <label>IMAGE URL</label>
             </div>
           </div>
-          <input className="waves-effect green lighten-4 btn" type="Submit" value="submit"/>
+          <input className="waves-effect green lighten-4 btn fun-font" type="Submit" value="submit"/>
         </form>
       </div>
       )
@@ -66,7 +66,7 @@ class NewDogForm extends React.Component {
   render() {
     return (
       <div>
-        <button className="waves-effect green lighten-4 btn" onClick={this.revealClick}>Add a dawg!</button>
+        <button className="waves-effect green lighten-4 btn fun-font" onClick={this.revealClick}>Add a dawg!</button>
         {this.form()}
       </div>
     )

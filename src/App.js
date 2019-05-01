@@ -106,15 +106,30 @@ class App extends React.Component {
     })
   }
 
+  handleDelete = (deletedDog) => {
+    let newArray = this.state.dogs.filter(dog => {return dog.id != deletedDog.id})
+    let newDisplayArray = this.state.displayDogs.filter(dog => {return dog.id != deletedDog.id})
+    this.setState({
+      dogs: newArray,
+      displayDogs: newDisplayArray
+    })
+    fetch(`http://localhost:3000/dogs/${deletedDog.id}`, {method: 'DELETE'})
+    .then(response => response.json())
+  }
+
   render() {
   return (
     <div className="App deep-orange lighten-5">
-      <h1>DOGSTAGRAM</h1>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">DOGSTAGRAM!</a>
+        </div>
+      </nav>
       <DogFilter handleChange={this.handleChange}/>
       <NameSort handleNameSort={this.handleNameSort}/>
       <LikeSort handleLikeSort={this.handleLikeSort} />
       <NewDogForm handleNewSubmit={this.handleNewSubmit}/>
-      <DogContainer handleLikeClick={this.handleLikeClick} dogs={this.state.displayDogs}/>
+      <DogContainer handleDelete={this.handleDelete} handleLikeClick={this.handleLikeClick} dogs={this.state.displayDogs}/>
     </div>
   );
 }
