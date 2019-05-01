@@ -118,6 +118,13 @@
       "img_url": "https://media.giphy.com/media/5EJHDSPpFhbG0/giphy.gif",
       "likes": 1,
       "id": 20
+    },
+    {
+      "name": "Frufru",
+      "breed": "german shepherd",
+      "img_url": "https://media.giphy.com/media/bbshzgyFQDqPHXBo4c/giphy.gif",
+      "likes": 0,
+      "id": 22
     }
   ]
 }
